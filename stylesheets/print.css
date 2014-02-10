@@ -1,0 +1,72 @@
+/*
+Syntax error: File to import not found or unreadable: sassy-buttons.
+              Load paths:
+                d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/breakpoint-2.0.7/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/singularitygs-1.1.2/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-blend-modes-0.0.2/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/color-schemer-0.2.8/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/toolkit-1.2.2/stylesheets
+                c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets
+                Compass::SpriteImporter
+        on line 16 of d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/partials/global/_base.scss
+        from line 11 of d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/print.scss
+
+Backtrace:
+d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/partials/global/_base.scss:16
+d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/print.scss:11
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:45:in `import'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:28:in `imported_file'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/import_node.rb:37:in `css_import?'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:227:in `map'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+c:/Ruby200-x64/bin/compass:23:in `load'
+c:/Ruby200-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: sassy-buttons.\A               Load paths:\A                 d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/breakpoint-2.0.7/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/singularitygs-1.1.2/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-blend-modes-0.0.2/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/color-schemer-0.2.8/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/toolkit-1.2.2/stylesheets\A                 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets\A                 Compass::SpriteImporter\A         on line 16 of d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/partials/global/_base.scss\A         from line 11 of d:/documents/web/cleanslate_smacss/cleanslate-toolkit/sass/print.scss"; }
