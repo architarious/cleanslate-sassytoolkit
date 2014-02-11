@@ -21,12 +21,12 @@ Ruby Gems (preinstalled on mac, need to install for windows: http://rubyinstalle
 
 **Other notes, comments, or reminders:**
 
- ***Starting compass watch:***
+***Starting compass watch:***
    1. Open prompt/shell 
    2. Navigate to your the folder where you cloned this
    3. bundler exec compass watch
 
- ***SASSY goodness/dependencies included:***
+***SASSY goodness/dependencies included:***
    * compass: http://compass-style.org/
    * toolkit:  https://github.com/Team-Sass/toolkit
    * singularity: https://github.com/Team-Sass/Singularity
@@ -35,7 +35,7 @@ Ruby Gems (preinstalled on mac, need to install for windows: http://rubyinstalle
    * sassy-buttons: http://jaredhardy.com/sassy-buttons/
    * compass-normalize: https://github.com/JohnAlbin/normalize-scss
 
- ***Misc SASS references/resources:***  
+***Misc SASS references/resources:***  
    * SASS Style guide:  http://css-tricks.com/sass-style-guide/
    * The SASS Way: http://thesassway.com/
    * fireSASS:  https://addons.mozilla.org/en-us/firefox/addon/firesass-for-firebug/
