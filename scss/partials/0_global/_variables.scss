@@ -1,0 +1,35 @@
+////////////////////////
+// Variables Partials
+//
+// All of your variables should go in this file.
+////////////////////////
+
+	//PRIMARY PALLETTE
+		$WVUBlue: #00447c;
+		$WVUGold: #eeb111;
+		$AltWVUBlue: #005daa;
+		$white:  #fffef7;
+		$black: desaturate(shade($WVUBlue, 40),  80);
+	
+	//SECONDARY PALLETTE
+		$SecLightGold: #ffe894;;
+		$SecMiddleBlue: #0079c1;
+        $SecLightBlue: #a0c4da;
+        $Purple: #27318b;
+        $DarkOrange: #d9531e;
+		$Orange: #f47b20;
+        $DarkGrey: #455560;
+        $MidGrey: #5c6f7c;
+
+/////////////////////////
+///SCREEN QUERIES
+//
+/////////////////////////
+
+
+	$mobile2: 30em;
+	$tablet: 48em;
+	$desktop1: 60em;
+	$desktop2: 78em;
+	$breakpoint-no-query-fallbacks: true;
+	$no-queries: 1024px, 'no-query' true;
