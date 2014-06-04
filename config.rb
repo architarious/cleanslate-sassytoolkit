@@ -6,7 +6,7 @@ require 'singularitygs'
 require 'breakpoint'
 require 'toolkit'
 require 'sassy-buttons'
-
+require 'bootstrap-sass'
 require 'autoprefixer-rails'
 
 on_stylesheet_saved do |file|
