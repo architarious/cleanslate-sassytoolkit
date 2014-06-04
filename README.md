@@ -19,8 +19,9 @@ Ruby Gems (preinstalled on mac, need to install for windows: http://rubyinstalle
 ***Getting Started***   
    1. Open prompt/shell 
    2. Navigate to this repository
-   3. install bundler:  gem install bundler
-   4. install bundled gems in gemfile:  bundle install
+   3. install compass: gem install compass
+   4. install bundler:  gem install bundler
+   5. install bundled gems in gemfile:  bundle install
 
 ***Starting compass watch:***
    1. Open prompt/shell 

@@ -10,7 +10,7 @@
     <link href="http://code.wvu.edu/stylesheets/global-stylesheet/4.0/stylesheets/global.css" rel="stylesheet" />
     <!--remove http: from href of global stylesheet in production -->
     <!-- replace with <r:include_stylesheet name="style" />-->
-    <link href="../../css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
 
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
@@ -35,13 +35,14 @@
     </div> <!-- /.masthead-container -->
   </div> <!-- /.wvu-masthead -->
 
-    
-
+  <header>
+    <div id="college-masthead">
+       <div class="container"></div>
+    </div><!-- /#college-masthead -->
     <div class="container">
-
       <!-- _header partial - replace with <r:partial name="header" /> <r:yield /> -->
-      <header class="header sixteen columns">
-        <a class="site-logo" href="/"><r:site_name /></a>
+      
+        <a class="site-logo" href="/">Department or college name<!--<r:site_name />--></a>
 
         <nav class="nav" role="navigation">
           <!-- example nav - replace ul/li with <r:site_menu /> -->
@@ -53,9 +54,18 @@
            <li><a href="#">Apply</a></li>
           </ul>
         </nav> <!-- /.nav -->
-      </header><!-- /.header -->
 
-      <main class="main sixteen columns">
+    </div><!--/.container-->
+  </header>
+
+  <section id="prefix">
+    <div class="container"></div>
+  </section><!-- /#prefix-->
+
+  <section id="core">
+    <div class="container">
+    <main id="main">
+      <article>
         <h1> Main content region - h1</h1>
 
         <p class="kicker">This is the kicker for the main content region. Etiam congue nibh eget purus sodales cursus. Sed bibendum eget leo eu fringilla. Suspendisse congue sollicitudin quam, a mattis nulla lacinia pellentesque. Pellentesque volutpat mattis elementum. </p>
@@ -117,8 +127,8 @@
           </tr>
         </table>
 
-
-      </main><!-- /.main -->
+      </article>
+      </main><!-- /#main -->
 
       <aside class="sidebar six columns" role="complementary">
       <h2> sidebar region - h2 </h2>
@@ -139,15 +149,30 @@
           </form>        
       </aside><!-- /.sidebar -->
 
-    <footer class="footer">
-      <div class="wvu-contact"> <!-- replace with <r:partial name="layouts/footer__contact--v1" theme="Code" /> -->
+      </div><!-- /.container -->
+    </section><!-- /#core -->
+
+    <section id="postfix">
+      <div class="container"></div>
+    </section><!--/#postfix-->
+
+    <footer class="footer">    
+      <div class="container">
+
+      <div id="footer_contact" class="wvu-contact"> <!-- replace with <r:partial name="layouts/footer__contact--v1" theme="Code" /> -->
 
       <h4>Your program name</h4>
       <p>1234 your address <br/>
       morgantown, wv 26501</p>
 
-      </div><!-- /.wvu-contact -->
+      </div><!-- /#footer_contact -->      
 
+      <div id="footer_feature">
+        <button class="apply">Apply today</button>
+      </div>
+      </div><!--/.container -->
+
+      <div class="container">
       <div class="wvu-credits" role="contentinfo">  <!-- replace with <r:partial name="layouts/footer__credits--v1" theme="Code" /> -->
         <ul>
            <li><a href="http://about.wvu.edu/wvu-facts">Accreditations</a></li>
@@ -172,10 +197,11 @@
           <li><a class="wvu-youtube" href="http://videos.wvu.edu">WVU on YouTube</a></li>
         </ul>
       </div> <!-- /.wvu-icons -->
+
       
-      
+      </div><!-- /.container-->
     </footer><!-- /.footer -->
-  </div> <!-- /.container -->
+ 
 
     <!-- make sure to include: <r:partial name="layouts/browser-update-org--v1" theme="Code" /> -->
 

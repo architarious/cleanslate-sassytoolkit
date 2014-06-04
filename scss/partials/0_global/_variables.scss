@@ -4,32 +4,50 @@
 // All of your variables should go in this file.
 ////////////////////////
 
-	//PRIMARY PALLETTE
-		$WVUBlue: #00447c;
-		$WVUGold: #eeb111;
-		$AltWVUBlue: #005daa;
-		$white:  #fffef7;
-		$black: desaturate(shade($WVUBlue, 40),  80);
-	
-	//SECONDARY PALLETTE
-		$SecLightGold: #ffe894;;
-		$SecMiddleBlue: #0079c1;
-        $SecLightBlue: #a0c4da;
-        $Purple: #27318b;
-        $DarkOrange: #d9531e;
-		$Orange: #f47b20;
-        $DarkGrey: #455560;
-        $MidGrey: #5c6f7c;
+////////////////////////
+//Font Sizes
+//
+////////////////////////
+$root-font-size: 16;
+$root-line-height: 26;
+$gRatio: 1.618;
+$modRatio: 0.618;
+
+$font-size-small : 00.75em;
+$font-size-small-2 : 0.875em;
+$font-size-med : 1em;
+$font-size-med-2: 1.0625em;
+$font-size-large : 1.4375em;
+
+
+
+
 
 /////////////////////////
-///SCREEN QUERIES
+///Media QUERIES
 //
 /////////////////////////
 
 
-	$mobile2: 30em;
-	$tablet: 48em;
-	$desktop1: 60em;
-	$desktop2: 78em;
-	$breakpoint-no-query-fallbacks: true;
-	$no-queries: 1024px, 'no-query' true;
+$mobile2: 30em;
+$tablet: 48em;
+$desktop1: 60em;
+$desktop2: 78em;
+//$breakpoint-no-query-fallbacks: true;
+$no-queries: 1024px, 'no-query' true;
+
+
+/////////////////////////
+///Space and padding defaults
+//
+/////////////////////////
+$space : 1em;
+$space-and-half : $space*1.5;
+$space-double : $space*2;
+$space-quad : $space*4;
+$space-half : $space/2;
+$pad : 1em;
+$pad-and-half : $pad*1.5;
+$pad-double : $pad*2;
+$pad-half : $pad/2;
+$pad-quarter :$pad/4;
