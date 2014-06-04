@@ -3,11 +3,7 @@ cleanslate-toolkit: SASSY_SMACSS
 
 A boilerplate for creating themes in CleanSlate using SASS and the SMACSS framework.
 
-**Theme Name:** My Spectacular Theme
 
-**Theme Description:** A spectacular description goes here.
-
-**Developers name(s):** May Day
 
 **Dependencies necessary to work with this theme:** 
 
