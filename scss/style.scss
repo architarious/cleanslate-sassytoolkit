@@ -16,24 +16,31 @@ $legacy-support-for-mozilla: false;
 ////////////////////////
 // Base Import
 ////////////////////////
-@import 'partials/global/base';
+@import 'partials/0_global/base';
 
 ////////////////////////
 // Import Style Guide
 ////////////////////////
-@import 'partials/styleguide/style-guide';
-
-////////////////////////
-// Import Layouts
-////////////////////////
-@import 'partials/layouts/layouts';
+@import 'partials/1_styleguide/base-style-guide';
 
 ////////////////////////
 // Import Modules
 ////////////////////////
-@import 'partials/modules/modules';
+@import 'partials/2_modules/base-modules';
+
+////////////////////////
+// Import Layouts
+////////////////////////
+@import 'partials/3_layouts/base-layouts';
+
 
 ////////////////////////
 // Import States
 ////////////////////////
-@import 'partials/states/states';
+@import 'partials/4_states/base-states';
+
+
+////////////////////////
+// Import your shame  (hotfixes that you haven't had time to organize yet)
+////////////////////////
+@import 'partials/4_shame/shame';

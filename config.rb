@@ -1,18 +1,28 @@
 # Require any additional compass plugins here.
 require 'compass'
+require 'compass-recipes'
+require 'compass-normalize'
 require 'singularitygs'
 require 'breakpoint'
 require 'toolkit'
-require 'compass-normalize'
 require 'sassy-buttons'
+
+require 'autoprefixer-rails'
+
+on_stylesheet_saved do |file|
+  css = File.read(file)
+  File.open(file, 'w') do |io|
+    io << AutoprefixerRails.process(css)
+  end
+end
 
 # Set this to the root of your project when deployed:
 http_path = "/sites/all/themes/cleanslate-toolkit"
-css_dir = "stylesheets"
-sass_dir = "sass"
-images_dir = "images"
-javascripts_dir = "javascripts"
-fonts_dir = "stylesheets/fonts"
+css_dir = "css"
+sass_dir = "scss"
+images_dir = "img"
+javascripts_dir = "js"
+fonts_dir = "css/fonts"
 
 # Change this to :production when ready to deploy the CSS to the live server.
 # Note: If you are using grunt.js, these variables will be overriden.

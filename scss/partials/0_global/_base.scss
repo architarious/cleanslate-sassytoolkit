@@ -14,6 +14,14 @@
 @import 'singularitygs';
 @import 'toolkit';
 @import 'sassy-buttons';
+@import 'normalize';
+@import 'compass'
+
+
+$legacy-support-for-ie: true;  
+$legacy-support-for-mozilla: false;   
+
+autoprefixer("last 2 versions", "> 1%", "Explorer 8", "Blackberry 10", "Android 4").process(css).css;
 
 ////////////////////////
 // Private Imports
