@@ -12,6 +12,6 @@ gem 'breakpoint', '<3.0.0'
 gem 'sassy-buttons', '<1.0.0'
 gem 'css_parser', '~>1.3.4'
 gem 'bootstrap-sass', '~>3.1.1'
-gem 'autoprefixer-rails', '<2';
+gem 'autoprefixer-rails';
 
 # Now that you're using Bundler, you need to run `bundle exec compass watch` instead of simply `compass watch`.

@@ -12,7 +12,7 @@ require 'bootstrap-sass'
 #on_stylesheet_saved do |file|
 #  css = File.read(file)
 #  File.open(file, 'w') do |io|
-#    io << AutoprefixerRails.process(css, browsers: ["last 1 version", "> 1%"])
+#    io << AutoprefixerRails.process(css, browsers: ["last 1 version"])
 #  end
 #end
 
