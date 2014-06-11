@@ -55,12 +55,15 @@ body{
 	footer{
 		#college.footer{
 			.container{
-
+				#footer_contact{}//end #footer_contact
+				#footer_feature{}//end #footer_feature
 			}//end #college.footer .container
 		}//end #colllege.footer
 
 		#wvu.footer{
 			.container{
+				.wvu-credits{}//end .wvu-credits
+				.wvu-icons{}//end .wvu-icons
 
 			}//end #wvu.footer .container
 		}//end #wvu.footer
