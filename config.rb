@@ -1,29 +1,35 @@
 # Require any additional compass plugins here.
 require 'compass'
+
 require 'compass-recipes'
 require 'compass-normalize'
+require 'color-schemer'
 require 'singularitygs'
 require 'breakpoint'
 require 'toolkit'
 require 'sassy-buttons'
+require 'autoprefixer-rails'
+require 'modular-scale'
 require 'bootstrap-sass'
-#require 'autoprefixer-rails'
-#
-#on_stylesheet_saved do |file|
-#  css = File.read(file)
-#  File.open(file, 'w') do |io|
-#    io << AutoprefixerRails.process(css, browsers: ["last 1 version"])
-#  end
-#end
+
+
+
 
 
 # Set this to the root of your project when deployed:
-http_path = "/sites/all/themes/cleanslate-toolkit"
-css_dir = "css"
-sass_dir = "scss"
-images_dir = "img"
-javascripts_dir = "js"
-fonts_dir = "css/fonts"
+http_path = "app/sourcehtml"
+css_dir = "app/css"
+sass_dir = "app/scss"
+images_dir = "app/img"
+javascripts_dir = "app/js"
+fonts_dir = "app/css/fonts"
+
+on_stylesheet_saved do |file|
+  css = File.read(file)
+  File.open(file, 'w') do |io|
+    io << AutoprefixerRails.process(css, browsers: ["last 1 version", "> 1%", "Explorer 7", "BlackBerry 10", "Android 4"])
+  end
+end
 
 # Change this to :production when ready to deploy the CSS to the live server.
 # Note: If you are using grunt.js, these variables will be overriden.
@@ -37,8 +43,9 @@ relative_assets = true
 line_comments = false
 
 # In development, we can turn on the debug_info to use with FireSass or Chrome Web Inspector. Uncomment:
-# debug = true
+debug = true
 
+sass_options = {:sourcemap => true}
 
 ##############################
 ## You probably don't need to edit anything below this.

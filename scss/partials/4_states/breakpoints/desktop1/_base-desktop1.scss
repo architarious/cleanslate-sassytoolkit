@@ -1,6 +1,0 @@
-@include breakpoint($tablet){
-  $grids: 12;
-  $gutters: 1/3;
-  @include background-grid;
-
-}

@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
-    autoprefixer-rails (1.1.20140523)
+    autoprefixer-rails (1.1.20140605)
       execjs
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
@@ -33,8 +33,10 @@ GEM
       sass (>= 3.2.1)
     css_parser (1.3.5)
       addressable
-    execjs (2.1.0)
+    execjs (2.2.0)
     fssm (0.2.10)
+    modular-scale (2.0.5)
+      compass (>= 0.12.0)
     sass (3.2.19)
     sassy-buttons (0.2.6)
       compass (>= 0.12.2)
@@ -58,11 +60,14 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass (~> 3.1.1)
   breakpoint (< 3.0.0)
-  compass (< 1.0.0)
+  color-schemer
+  compass (< 1.0.6)
   compass-aurora (< 4.0.0)
   compass-normalize (< 2.0.0)
   compass-recipes (< 1.3.0)
   css_parser (~> 1.3.4)
+  modular-scale
+  sass
   sassy-buttons (< 1.0.0)
   singularitygs (< 2.0.0)
-  toolkit (< 2.0.0)
+  toolkit (< 2.4.0)

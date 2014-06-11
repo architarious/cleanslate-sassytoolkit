@@ -1,0 +1,69 @@
+////////////////////////
+// Layouts Partials
+//
+// Your SMACSS Layouts go here
+// Build sub folders and partials in this folder, with everything being imported, in cascading order, into this file.
+////////////////////////
+
+
+
+body{
+	.wvu-masthead{
+		.wvu-masthead-container{
+
+		}
+	}//end /wvu-masthead
+
+	header{
+		#college-masthead{
+			.container{
+
+			}//end #college-masthead.container
+		}//end #college-masthead
+
+		.container{
+			a.site-logo{}
+			nav.nav.primary{}
+		}//end header.container
+	}//end header
+
+	section#prefix{
+		.container{
+
+		}//end section#prefix.container
+	}//end section#prefix
+
+	section#core{
+		.container{
+			#main{
+				article{
+					
+				}//end #main article
+			}//end #main
+			aside.sidebar{
+
+			}//end aside.sidebar
+		}//end section#core.container
+	}//end section#core	
+
+	section#postfix{
+		.container{
+
+		}//end section#postfix .container
+	}//end section#postfix
+
+	footer{
+		#college.footer{
+			.container{
+
+			}//end #college.footer .container
+		}//end #colllege.footer
+
+		#wvu.footer{
+			.container{
+
+			}//end #wvu.footer .container
+		}//end #wvu.footer
+		
+	}//end footer.footer
+}//end body
