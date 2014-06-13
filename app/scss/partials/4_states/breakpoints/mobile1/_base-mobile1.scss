@@ -4,13 +4,19 @@
  //@include background-grid;
 
  body{
+ 	.container, .wvu-masthead-container{
+  		margin:0 auto;
+
+  	}
 	.wvu-masthead{
+		padding:0 1.25%;
 		.wvu-masthead-container{
 
 		}
 	}//end /wvu-masthead
 
 	header{
+		padding:0 1.25%;
 		#college-masthead{
 			.container{
 
@@ -24,12 +30,14 @@
 	}//end header
 
 	section#prefix{
+		padding:0 1.25%;
 		.container{
 
 		}//end section#prefix.container
 	}//end section#prefix
 
 	section#core{
+		padding:0 1.25%;
 		.container{
 			#main{
 				article{
@@ -43,12 +51,15 @@
 	}//end section#core	
 
 	section#postfix{
+
+		padding:0 1.25%;
 		.container{
 
 		}//end section#postfix .container
 	}//end section#postfix
 
 	footer{
+		padding:0 1.25%;
 		#college.footer{
 			.container{
 				#footer_contact{}//end #footer_contact

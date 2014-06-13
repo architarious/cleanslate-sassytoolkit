@@ -8,7 +8,10 @@
 
 
 body{
+	
 	.wvu-masthead{
+		width:100%;
+		float:left;
 		.wvu-masthead-container{
 
 		}
@@ -16,6 +19,8 @@ body{
 
 	header{
 		#college-masthead{
+			width:100%;
+			float:left;
 			.container{
 
 			}//end #college-masthead.container
@@ -28,16 +33,21 @@ body{
 	}//end header
 
 	section#prefix{
+		width:100%;
+		float:left;
 		.container{
 
 		}//end section#prefix.container
 	}//end section#prefix
 
 	section#core{
+		width:100%;
+		float:left;
 		.container{
 			#main{
 				article{
-					
+					float:left;
+					max-width:100%;
 				}//end #main article
 			}//end #main
 			aside.sidebar{
@@ -47,13 +57,21 @@ body{
 	}//end section#core	
 
 	section#postfix{
+		width:100%;
+		float:left;
 		.container{
 
 		}//end section#postfix .container
 	}//end section#postfix
 
 	footer{
+		width:100%;
+		float:left;
+		@include adjust-font-size-to($font-size-med);
+        @include rhythm(0, $ms-2n, $ms-2n, 0, $font-size-med);
 		#college.footer{
+			width:100%;
+			float:left;
 			.container{
 				#footer_contact{}//end #footer_contact
 				#footer_feature{}//end #footer_feature
@@ -61,6 +79,8 @@ body{
 		}//end #colllege.footer
 
 		#wvu.footer{
+			width:100%;
+			float:left;
 			.container{
 				.wvu-credits{}//end .wvu-credits
 				.wvu-icons{}//end .wvu-icons

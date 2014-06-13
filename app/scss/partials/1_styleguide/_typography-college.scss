@@ -7,22 +7,16 @@
 
 p {
     @include adjust-font-size-to($font-size-med);
-    @include rhythm(1.618, 1, 0, 1.25, $font-size-med);
+    @include rhythm($ms-1, 0, 0, $ms-3n, $font-size-med);
 
     max-width: 50em;
     font-family: $font-paragraph;
     font-weight: normal;
     color:$black;
-
-    @include breakpoint($tablet){
-        @include adjust-font-size-to($font-size-med-2);
-        @include rhythm(1.25, 0, 0.772, 1, $font-size-med-2);
-    }
-
 }
 p.kicker{
     @include adjust-font-size-to($font-size-large);
-    @include rhythm(1.618, 1, 0, 1.25, $font-size-large);
+    @include rhythm($ms-2,0, 0, $ms-1, $font-size-large);
 
     max-width: 40em;
     color:$vb-Charcoal;
@@ -76,9 +70,10 @@ p{
         color:$black;
         padding: 1px 4px;
         text-decoration: none;
-        background-color:$white;
         background-color:transparent;
-        border-bottom:1px solid tint($tertiary, 20);
+        border-bottom-style:solid;
+        border-bottom-color:tint($tertiary, 20);
+        @include trailing-border(1px, $ms-7n/2);
     
         @include standard-transition(background-color);
         @include standard-transition(border);
@@ -101,47 +96,32 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockq
 
 h1 {
     color: tint($primary, 20);
-    @include adjust-font-size-to($font-size-xlarge);
-    @include rhythm(2.6180340, 1.618, 0, 2.0225425, $font-size-xlarge);
-
-    //font-size:$font-size-xlarge;
-    //line-height:$lh-size-xlarge;
-    
+    text-align:center;
     max-width: 20em;
     text-transform: uppercase;
     font-family:$BdCn;
     font-weight: normal;
-
-    @include breakpoint($tablet){
-        @include adjust-font-size-to($font-size-xlarge-2);
-        @include rhythm(2.6180340, 1.618, 0, 2.0225425, $font-size-xlarge-2);
-        //font-size:$font-size-xlarge-2;
-        //line-height:$lh-size-xlarge-2;
-    }
-    @include breakpoint($desktop1){
-        @include adjust-font-size-to($font-size-xxlarge);
-        @include rhythm(2.6180340, 1.618, 0, 2.0225425, $font-size-xxlarge);
-        //font-size:$font-size-xxlarge;
-        //line-height:$lh-size-xxlarge;
-    }
+    @include adjust-font-size-to($font-size-xlarge);
+    @include rhythm($ms-2n, 0, 0, $ms-3n, $font-size-xlarge);
 }
-header h1 {
-    color: $white;
+
+header h1 a{
+    max-width: 100%;
     @include adjust-font-size-to($font-size-large);
     @include rhythm(2.6180340, 1.618, 0, 2.0225425, $font-size-large);
-
-    max-width: 100%;
+    
 }
 h2 {
-    //border-bottom: 4px solid $SecLightGold;
-    border-bottom-color:$SecLightGold;
-    border-bottom-style:solid;
-    @include trailing-border(2px, .5);
+    border-bottom-color:$SecLightGold;    
+    border-bottom-style:solid;    
     font-family:$LtCn;
     font-weight: normal;
     color: $primary;
-    @include adjust-font-size-to($font-size-xlarge);
-    @include rhythm(2.6180340, 1.618, 0, 2.0225425, $font-size-xlarge); 
+    border-top:0;
+    @include adjust-font-size-to($font-size-large);
+    @include rhythm($ms-4, 0, $ms-5n, $ms-1n, $font-size-large);
+    @include trailing-border(2px, $ms-4n);
+    border-image:url(../img/patternBar.jpg) 1 0;
     max-width: 20em;
     a{
         color: shade($primary, 20);
@@ -150,10 +130,10 @@ h2 {
 }
 h3 {
     color: $DarkOrange;
-    @include adjust-font-size-to($font-size-large);
-    @include rhythm(2.0225425, 1.25, 0, 1.618, $font-size-large);
     text-transform: uppercase;
     font-family: $Bd;
+    @include adjust-font-size-to($font-size-med-2);
+    @include rhythm($ms-4, 0, 0, $ms-1n, $font-size-med-2);
     a{
         color: tint($DarkOrange,20);
         &:link , &:active{ color: tint($DarkOrange,20); }
@@ -161,26 +141,25 @@ h3 {
     }
 }
 h4 {
-    @include adjust-font-size-to($font-size-large);
-    @include rhythm(2.0225425, 1.25, 0, 1.618, $font-size-large);
-    color: $vb-Charcoal;
+    @include adjust-font-size-to($font-size-med-2);
+    @include rhythm($ms-3, 0, 0, $ms-3n, $font-size-med-2);
     font-family: $BlkCn;
 }
 h5 {
-    @include adjust-font-size-to($font-size-large);
-    @include rhythm(2.0225425, 1.25, 0, 1.618, $font-size-large);   
+    @include adjust-font-size-to($font-size-med-2);
+    @include rhythm($ms-2, 0, 0, $ms-3n, $font-size-med-2);
     font-family: $LtCn;
     //text-transform: uppercase;
 }
 h6 {
-    @include adjust-font-size-to($font-size-med-2);
-    @include rhythm(2.0225425, 1.25, 0, 1.618, $font-size-med-2);
+    @include adjust-font-size-to($font-size-med);
+    @include rhythm($ms-1, 0, 0, $ms-5n, $font-size-med);
+    color:tint($primary, 25);
     font-family: $Bd;
     text-transform: uppercase;
 }
-h4, h5, h6 {
+h4, h5 {
     color: $vb-Charcoal;
-    margin-bottom: 18px;
     a{
         color: tint($black,20);
         &:link , &:active{ color: tint($black,20); }
@@ -196,35 +175,43 @@ table{
     color:$vb-Charcoal;
     caption{
         @include adjust-font-size-to($font-size-large);
-        @include rhythm(1.25, 0.7725, 0.618, 1, $font-size-med-2);
-        font-family: $BlkCn;
+        @include rhythm($ms-1, 0, 0, $ms-3n, $font-size-large);
+        font-family: $Lt;
     }
     tbody, thead{
         tr{ 
-            &:nth-child(odd){ background:tint($secondary, 50);}
+            &:nth-child(even){ background:tint($secondary, 60);}
             th{
-                @include adjust-font-size-to($font-size-med-2);
-                @include rhythm(1.618, 1, 0.7725, 1.25, $font-size-med-2);
+                
                 font-family:$BdCn;
-                color:$secondary;
-                background:url(../images/noise.png) $primary;
+                color:darken($secondary,2);
+                background:url(../img/noise.png) tint(lighten($primary,3),16);
                 @include text-shadow(shade($primary,40) 0 1px 0px);
                 @include box-shadow(set-alpha($black, 0.5) 0 3px 2px, set-alpha($white, 0.2) 0 1px 4px inset);
                 text-transform:uppercase;
-                border: 1px solid tint($primary, 20);
-                border-top: 2px solid tint(lighten($primary, 20), 10);
-                border-bottom: 3px solid shade(darken($primary, 20), 10);
+                border: 1px solid darken($primary, 20);
+                border-top: 1px solid tint(lighten($primary, 1), 50);
+                border-bottom: 2px solid shade(darken($primary, 5), 10);
                 text-align:center;
+                padding:ms(0);
+                @include adjust-font-size-to($font-size-med);
+                @include rhythm($ms-1, $ms-0, $ms-1n, $ms-3n, $font-size-med);
+                &:first-child{
+                  border-left: 1px solid darken($primary, 10);
+                }
+                &:last-child{
+                  border-right: 1px solid darken($primary, 10);
+                }
 
             }
             td{
-                padding:0 $font-size-small;
-                @include adjust-font-size-to($font-size-med);
-                @include rhythm(1.618, 1, 0.7725, 1.25, $font-size-med); 
-                border-left: 1px dashed tint($secondary, 50);
-                border-right: 1px dashed tint($secondary, 50);
-
-                &:first-child, &:last-child{ border:0;}
+                padding:ms(0);
+                @include adjust-font-size-to($font-size-small-2);
+                @include rhythm(0, $ms-2n, $ms-2n, 0, $font-size-small-2);
+                border-left: 1px shade($secondary, 10) dashed;
+                &:first-child{
+                  border-left: 0;
+                }
             }
             
         }
@@ -236,67 +223,77 @@ table{
 ////////////////////////////////////////////
 
 article{
-ul, ol {
+ul, ol, dl {
     @include adjust-font-size-to($font-size-med);
-    @include rhythm(1, 0.618, 0.477, 0.7725, $font-size-small-2);
+    @include rhythm($ms-1, 0, 0, $ms-3n, $font-size-med);
 }
 ul {
     list-style-type: disc;
 
     li{
-        @include adjust-font-size-to($font-size-med);
+        @include rhythm($ms-4n, 0, 0, $ms-4n, $font-size-med);
     }
-}
-ul ul {
-    list-style-type: circle;
-    margin-top:0;
-    margin-bottom: 0;
-    padding-top:0;
-    padding-bottom:0;
-    @include rhythm(0, 0.618, 0.477, 0, $font-size-small-2);
-}
+    
+    ul {
+      list-style-type: circle;
+      margin-top:0;
+      margin-bottom: 0;
+      padding-top:0;
+      padding-bottom:0;
+      @include rhythm($ms-3n, 0, 0, $ms-1n, $font-size-med);
+    }
+}//end ul
 
 ol {
     list-style-type: decimal;
-}
-ol li {
-    line-height: 18px;
-}
-ol ol {
-    list-style-type: lower-alpha;
-    margin-bottom: 0;
-}
+    li {
+      @include rhythm($ms-4n, 0, 0, $ms-4n, $font-size-med);
+    }
+    ol {
+      list-style-type: lower-alpha;
+      margin-bottom: 0;
+      @include rhythm($ms-3n, 0, 0, $ms-1n, $font-size-med);
+    }
+}//end ol
 dl{
  dt{
-    @include rem-selector(font-size, 1.2);
     font-family:$BdCn;
-    color:$secondary;
-    background:url(../img/noise.png) $primary;
-    padding:8px;
-    @include text-shadow(shade($primary,40) 0 1px 0px);
-    @include box-shadow(set-alpha($black, 0.4) 0 2px 3px, set-alpha($white, 0.2) 0 1px 1px inset);
+    color:darken($primary,15);
+    background:url(../img/noise.png) tint(lighten($primary,3),16);
+    padding: 0 ms(-2);
+    @include adjust-font-size-to($font-size-med-2);
+    @include rhythm($ms-1, $ms-5n, $ms-6n, $ms-3n, $font-size-med-2);
+    @include letterpress(0.3);
+    @include standard-box-shadow();
     border: 1px solid tint($primary, 20);
-    border-top: 1px solid tint(lighten($primary, 20), 10);
-    border-bottom: 3px solid shade(darken($primary, 20), 10);
-    margin-bottom:8px;
-    max-width:45em;
+    border-top: 1px solid tint(lighten($primary, 10), 10);
+    border-bottom: 1px solid shade(darken($primary, 10), 10);
+    max-width:ms(16);
+
+
   } 
   dd{
-    @include rem-selector(margin-bottom, 1);
-    padding:8px; 
-    border-color:tint($secondary, 30); border-style:dashed; border-width:1px;
-    max-width:50em;
+     @include adjust-font-size-to($font-size-med);
+     @include rhythm($ms-1, $ms-5n, $ms-6n, $ms-3n, $font-size-med-2);
+    padding:ms(-2); 
+    border-color:tint($quadrary, 20); 
+    border-style:dashed; 
+    border-width:1px;
+    border-left: ms(-2) $quadrary solid;
+    max-width:ms(15);
     color:$black;
     &:nth-child(odd){}
   }
   dl dt{ 
-    background-color: tint($primary, 30); 
+    @include rhythm(1, 0.618, 0.477, 0.7725, $font-size-small-2);
+    background-color: tint($primary, 60); 
     @include box-shadow(set-alpha($black, 0.1) 0 1px 1px, set-alpha($white, 0.2) 0 1px 1px inset);
     border-top: 1px solid tint($primary, 10);
     border-bottom: 1px solid shade(darken($primary, 20), 10);
     @include rem-selector(text-indent, 1);
     }
   dl dd{
+    @include rhythm(1, 0.618, 0.477, 0.7725, $font-size-small-2);
     color:$vb-Charcoal;
 
   }
@@ -322,13 +319,21 @@ blockquote {
     color: $gray-dark;
     font-family: $font-secondary;
     max-width: 50em;
-    border-left: 10px solid $quadrary;
-    @include rem-selector(padding, 2);
-    padding-left: 10px; 
+    border-left: ms(-2) solid $quadrary;
+    //@include rem-selector(padding, 2);
+    padding-left: ms(1); 
     padding-right:0;
     
     em, i{ font-family:$font-secondary;}
     strong, b{font-family: $font-secondary;}
+
+    p{
+        color: $gray-dark;
+        font-family: $font-secondary;
+        @include adjust-font-size-to($font-size-med-2);
+        em, i{ font-family:$font-secondary;}
+        strong, b{font-family: $font-secondary;}
+    }
     
 }//end blockquote
 
