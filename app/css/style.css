@@ -8674,7 +8674,7 @@ button.close {
  ms(19) = 95.0164504677em 
  ms(20) = 122.9918779328em
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003304}}
 .visually-hidden {
   margin: -1px;
   padding: 0;
@@ -8685,7 +8685,7 @@ button.close {
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003295}}
 .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -9676,42 +9676,42 @@ ul li, .sidebar li, aside li {
   padding: 0 !important;
   margin: -1px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003198}}
 .btn:hover, .btn:focus {
   -webkit-box-shadow: #52585d 0 2px 4px;
           box-shadow: #52585d 0 2px 4px;
   color: #e5e4e1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
 .btn:active {
   background: #66a1ff;
   -webkit-box-shadow: #8b9093 0 4px 6px;
           box-shadow: #8b9093 0 4px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003208}}
 .btn:visited {
   color: #ffcb74;
   text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003214}}
 .btn.disabled {
   background: #eeeeee;
   color: #4b5156;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003217}}
 .btn.disabled:hover, .btn.disabled:focus, .btn.disabled:active {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003220}}
 .btn.disabled:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003222}}
 .btn.disabled:before:hover:before, .btn.disabled:before:focus:before, .btn.disabled:before:active:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003229}}
 .btn:before {
   background-color: #0059e5;
   background-image: url(../img/right_arrow.png);
@@ -9741,13 +9741,13 @@ ul li, .sidebar li, aside li {
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003247}}
 .btn:hover:before, .btn:focus:before {
   background-color: #003b99;
   -webkit-box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
           box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003252}}
 .btn:active:before {
   background-color: #4d92ff;
   -webkit-box-shadow: black 0 1px 0 inset, #66a1ff 0 3px 0;
@@ -9817,42 +9817,42 @@ ul li, .sidebar li, aside li {
   padding: 0 !important;
   margin: -1px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003198}}
 .btn--small:hover, .btn--small:focus {
   -webkit-box-shadow: #52585d 0 2px 4px;
           box-shadow: #52585d 0 2px 4px;
   color: #e5e4e1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
 .btn--small:active {
   background: #66a1ff;
   -webkit-box-shadow: #8b9093 0 4px 6px;
           box-shadow: #8b9093 0 4px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003208}}
 .btn--small:visited {
   color: #ffcb74;
   text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003214}}
 .btn--small.disabled {
   background: #eeeeee;
   color: #4b5156;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003217}}
 .btn--small.disabled:hover, .btn--small.disabled:focus, .btn--small.disabled:active {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003220}}
 .btn--small.disabled:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003222}}
 .btn--small.disabled:before:hover:before, .btn--small.disabled:before:focus:before, .btn--small.disabled:before:active:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003229}}
 .btn--small:before {
   background-color: #0059e5;
   background-image: url(../img/right_arrow.png);
@@ -9882,13 +9882,13 @@ ul li, .sidebar li, aside li {
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003247}}
 .btn--small:hover:before, .btn--small:focus:before {
   background-color: #003b99;
   -webkit-box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
           box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003252}}
 .btn--small:active:before {
   background-color: #4d92ff;
   -webkit-box-shadow: black 0 1px 0 inset, #66a1ff 0 3px 0;
@@ -9958,42 +9958,42 @@ ul li, .sidebar li, aside li {
   padding: 0 !important;
   margin: -1px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003198}}
 .btn--large:hover, p a.action:hover, .btn--large:focus, p a.action:focus {
   -webkit-box-shadow: #52585d 0 2px 4px;
           box-shadow: #52585d 0 2px 4px;
   color: #e5e4e1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
 .btn--large:active, p a.action:active {
   background: #66a1ff;
   -webkit-box-shadow: #8b9093 0 4px 6px;
           box-shadow: #8b9093 0 4px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003208}}
 .btn--large:visited, p a.action:visited {
   color: #ffcb74;
   text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003214}}
 .btn--large.disabled, p a.disabled.action {
   background: #eeeeee;
   color: #4b5156;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003217}}
 .btn--large.disabled:hover, p a.disabled.action:hover, .btn--large.disabled:focus, p a.disabled.action:focus, .btn--large.disabled:active, p a.disabled.action:active {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003220}}
 .btn--large.disabled:before, p a.disabled.action:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003222}}
 .btn--large.disabled:before:hover:before, p a.disabled.action:before:hover:before, .btn--large.disabled:before:focus:before, p a.disabled.action:before:focus:before, .btn--large.disabled:before:active:before, p a.disabled.action:before:active:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003229}}
 .btn--large:before, p a.action:before {
   background-color: #0059e5;
   background-image: url(../img/right_arrow.png);
@@ -10023,13 +10023,13 @@ ul li, .sidebar li, aside li {
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003247}}
 .btn--large:hover:before, p a.action:hover:before, .btn--large:focus:before, p a.action:focus:before {
   background-color: #003b99;
   -webkit-box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
           box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003252}}
 .btn--large:active:before, p a.action:active:before {
   background-color: #4d92ff;
   -webkit-box-shadow: black 0 1px 0 inset, #66a1ff 0 3px 0;
@@ -10666,42 +10666,42 @@ form input.btn::-moz-focus-inner, form input.button::-moz-focus-inner, form inpu
   padding: 0 !important;
   margin: -1px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003198}}
 form input.btn:hover, form input.btn:focus, form input.button:hover, form input.button:focus, form input.submit:hover, form input.submit:focus, form textarea.btn:hover, form textarea.btn:focus, form textarea.button:hover, form textarea.button:focus, form textarea.submit:hover, form textarea.submit:focus, form .form-control.btn:hover, form .form-control.btn:focus, form .form-control.button:hover, form .form-control.button:focus, form .form-control.submit:hover, form .form-control.submit:focus {
   -webkit-box-shadow: #52585d 0 2px 4px;
           box-shadow: #52585d 0 2px 4px;
   color: #e5e4e1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
 form input.btn:active, form input.button:active, form input.submit:active, form textarea.btn:active, form textarea.button:active, form textarea.submit:active, form .form-control.btn:active, form .form-control.button:active, form .form-control.submit:active {
   background: #66a1ff;
   -webkit-box-shadow: #8b9093 0 4px 6px;
           box-shadow: #8b9093 0 4px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003208}}
 form input.btn:visited, form input.button:visited, form input.submit:visited, form textarea.btn:visited, form textarea.button:visited, form textarea.submit:visited, form .form-control.btn:visited, form .form-control.button:visited, form .form-control.submit:visited {
   color: #ffcb74;
   text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003214}}
 form input.btn.disabled, form input.button.disabled, form input.submit.disabled, form textarea.btn.disabled, form textarea.button.disabled, form textarea.submit.disabled, form .form-control.btn.disabled, form .form-control.button.disabled, form .form-control.submit.disabled {
   background: #eeeeee;
   color: #4b5156;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003217}}
 form input.btn.disabled:hover, form input.btn.disabled:focus, form input.btn.disabled:active, form input.button.disabled:hover, form input.button.disabled:focus, form input.button.disabled:active, form input.submit.disabled:hover, form input.submit.disabled:focus, form input.submit.disabled:active, form textarea.btn.disabled:hover, form textarea.btn.disabled:focus, form textarea.btn.disabled:active, form textarea.button.disabled:hover, form textarea.button.disabled:focus, form textarea.button.disabled:active, form textarea.submit.disabled:hover, form textarea.submit.disabled:focus, form textarea.submit.disabled:active, form .form-control.btn.disabled:hover, form .form-control.btn.disabled:focus, form .form-control.btn.disabled:active, form .form-control.button.disabled:hover, form .form-control.button.disabled:focus, form .form-control.button.disabled:active, form .form-control.submit.disabled:hover, form .form-control.submit.disabled:focus, form .form-control.submit.disabled:active {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003220}}
 form input.btn.disabled:before, form input.button.disabled:before, form input.submit.disabled:before, form textarea.btn.disabled:before, form textarea.button.disabled:before, form textarea.submit.disabled:before, form .form-control.btn.disabled:before, form .form-control.button.disabled:before, form .form-control.submit.disabled:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003222}}
 form input.btn.disabled:before:hover:before, form input.btn.disabled:before:focus:before, form input.btn.disabled:before:active:before, form input.button.disabled:before:hover:before, form input.button.disabled:before:focus:before, form input.button.disabled:before:active:before, form input.submit.disabled:before:hover:before, form input.submit.disabled:before:focus:before, form input.submit.disabled:before:active:before, form textarea.btn.disabled:before:hover:before, form textarea.btn.disabled:before:focus:before, form textarea.btn.disabled:before:active:before, form textarea.button.disabled:before:hover:before, form textarea.button.disabled:before:focus:before, form textarea.button.disabled:before:active:before, form textarea.submit.disabled:before:hover:before, form textarea.submit.disabled:before:focus:before, form textarea.submit.disabled:before:active:before, form .form-control.btn.disabled:before:hover:before, form .form-control.btn.disabled:before:focus:before, form .form-control.btn.disabled:before:active:before, form .form-control.button.disabled:before:hover:before, form .form-control.button.disabled:before:focus:before, form .form-control.button.disabled:before:active:before, form .form-control.submit.disabled:before:hover:before, form .form-control.submit.disabled:before:focus:before, form .form-control.submit.disabled:before:active:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003229}}
 form input.btn:before, form input.button:before, form input.submit:before, form textarea.btn:before, form textarea.button:before, form textarea.submit:before, form .form-control.btn:before, form .form-control.button:before, form .form-control.submit:before {
   background-color: #0059e5;
   background-image: url(../img/right_arrow.png);
@@ -10731,13 +10731,13 @@ form input.btn:before, form input.button:before, form input.submit:before, form 
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003247}}
 form input.btn:hover:before, form input.btn:focus:before, form input.button:hover:before, form input.button:focus:before, form input.submit:hover:before, form input.submit:focus:before, form textarea.btn:hover:before, form textarea.btn:focus:before, form textarea.button:hover:before, form textarea.button:focus:before, form textarea.submit:hover:before, form textarea.submit:focus:before, form .form-control.btn:hover:before, form .form-control.btn:focus:before, form .form-control.button:hover:before, form .form-control.button:focus:before, form .form-control.submit:hover:before, form .form-control.submit:focus:before {
   background-color: #003b99;
   -webkit-box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
           box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003252}}
 form input.btn:active:before, form input.button:active:before, form input.submit:active:before, form textarea.btn:active:before, form textarea.button:active:before, form textarea.submit:active:before, form .form-control.btn:active:before, form .form-control.button:active:before, form .form-control.submit:active:before {
   background-color: #4d92ff;
   -webkit-box-shadow: black 0 1px 0 inset, #66a1ff 0 3px 0;
@@ -10835,42 +10835,42 @@ form .submit input::-moz-focus-inner, form .submit button::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003198}}
 form .submit input:hover, form .submit input:focus, form .submit button:hover, form .submit button:focus {
   -webkit-box-shadow: #52585d 0 2px 4px;
           box-shadow: #52585d 0 2px 4px;
   color: #e5e4e1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
 form .submit input:active, form .submit button:active {
   background: #66a1ff;
   -webkit-box-shadow: #8b9093 0 4px 6px;
           box-shadow: #8b9093 0 4px 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003208}}
 form .submit input:visited, form .submit button:visited {
   color: #ffcb74;
   text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003214}}
 form .submit input.disabled, form .submit button.disabled {
   background: #eeeeee;
   color: #4b5156;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003217}}
 form .submit input.disabled:hover, form .submit input.disabled:focus, form .submit input.disabled:active, form .submit button.disabled:hover, form .submit button.disabled:focus, form .submit button.disabled:active {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003220}}
 form .submit input.disabled:before, form .submit button.disabled:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003222}}
 form .submit input.disabled:before:hover:before, form .submit input.disabled:before:focus:before, form .submit input.disabled:before:active:before, form .submit button.disabled:before:hover:before, form .submit button.disabled:before:focus:before, form .submit button.disabled:before:active:before {
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003229}}
 form .submit input:before, form .submit button:before {
   background-color: #0059e5;
   background-image: url(../img/right_arrow.png);
@@ -10900,13 +10900,13 @@ form .submit input:before, form .submit button:before {
   -webkit-transition-timing-function: ease-in;
           transition-timing-function: ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003247}}
 form .submit input:hover:before, form .submit input:focus:before, form .submit button:hover:before, form .submit button:focus:before {
   background-color: #003b99;
   -webkit-box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
           box-shadow: black 0 5px 0 inset, #66a1ff 0 1px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003252}}
 form .submit input:active:before, form .submit button:active:before {
   background-color: #4d92ff;
   -webkit-box-shadow: black 0 1px 0 inset, #66a1ff 0 3px 0;
@@ -10995,6 +10995,148 @@ div.message.notice:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/1_styleguide\/objects\/_messages\.scss}line{font-family:\0000359}}
 div.message .close {
   margin-top: -41.618px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\000032}}
+header .site-logo {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000319}}
+nav.navbar-default {
+  background: none;
+  color: #1e262c;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-raidus: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000334}}
+nav .navbar-header {
+  float: left;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000338}}
+nav .navbar-header .navbar-toggle {
+  border: 0;
+  -webkit-transition-property: color;
+          transition-property: color;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  max-width: 4.95em;
+  margin-top: 0.5974783883em;
+  padding-top: 0.9667403467em;
+  padding-bottom: 0.9667403467em;
+  margin-bottom: 0.5974783883em;
+  background: #efb828;
+  -webkit-box-shadow: #f1c040 0 1px 3px 0 inset;
+          box-shadow: #f1c040 0 1px 3px 0 inset;
+  color: #00447c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000347}}
+nav .navbar-header .navbar-toggle:hover, nav .navbar-header .navbar-toggle:focus {
+  background: url(../img/noise.png) #f3c858 repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000350}}
+nav .navbar-header .navbar-toggle .navbar-toggle_title {
+  float: right;
+  margin-top: -0.24em;
+  font-family: "HelvNu-BdCn", Arial, verdana, Sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000355}}
+nav .navbar-header .navbar-toggle .icon-bar {
+  float: left;
+  background-color: #00447c;
+  max-width: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000363}}
+nav .navbar-header .navbar-brand {
+  background: none;
+  color: #0063ff;
+  text-shadow: 0 1px 0 rgba(255, 254, 251, 0.68541);
+  font-size: 1em;
+  line-height: 1.251375em;
+  margin-top: 0.5974783883em;
+  padding-top: 0.7733922774em;
+  padding-bottom: 0.7733922774em;
+  margin-bottom: 0.5974783883em;
+  font-family: "HelvNu-BdCn", Arial, verdana, Sans-serif;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000371}}
+nav .navbar-header .navbar-brand:hover {
+  color: #19468d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000379}}
+nav #nav-primary {
+  border-bottom: #f2f1ee solid;
+  border-bottom-style: solid;
+  border-bottom-width: 0.125em;
+  padding-bottom: 0.244155625em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000382}}
+nav #nav-primary ul.navbar-nav {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000385}}
+nav #nav-primary ul.navbar-nav li {
+  width: 100%;
+  float: left;
+  border-bottom: #f4f3f0 solid;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.16525025em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000390}}
+nav #nav-primary ul.navbar-nav li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000394}}
+nav #nav-primary ul.navbar-nav li a {
+  background: none;
+  -webkit-transition-property: color;
+          transition-property: color;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  font-size: 1em;
+  line-height: 1.251375em;
+  margin-top: 0.47802525em;
+  padding-top: 0.369155625em;
+  padding-bottom: 0.2953245em;
+  margin-bottom: 0.47802525em;
+  width: 100%;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\00003100}}
+nav #nav-primary ul.navbar-nav li a:active {
+  background: #ede7dc url(../img/noise.png) repeat;
+}
+@media (min-width: 48rem) {
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\0000382}}
+  nav #nav-primary ul.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003321}}
+  nav #nav-primary ul.navbar-nav > li {
+    display: block;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/0_global\/_mixins\.scss}line{font-family:\00003324}}
+  nav #nav-primary ul.navbar-nav > li:last-child {
+    margin-right: 0px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/2_modules\/_nav\.scss}line{font-family:\00003110}}
+  nav #nav-primary ul.navbar-nav li {
+    width: auto;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/wamp\/www\/cleanslate-sassytoolkit\/app\/scss\/partials\/3_layouts\/_base-layouts\.scss}line{font-family:\0000312}}

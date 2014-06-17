@@ -17,6 +17,30 @@ function   ($,        affix,         alert,	     button,	  carousel,      collap
     //jQuery, canvas and the app/sub module are all
     //loaded and can be used here now.
 
-    $(".message").alert()
+    $(function() {
+        $('.collapse').collapse(); //bootstrap solution for navigation "navbar"
+        //hamburger();  uncomment for mobile nav (if not using bootstrap)
+    });
+  
 });
+
+function hamburger(){
+
+  var active = false;
+
+  $("#navWrapper").addClass("js").before('<a id="hamburger" href="#">Menu</a>');
+  
+  $('#hamburger').click(function(){
+        if($(this).next().css('display')=='block'){
+            $(this).next().slideUp();
+        }else{
+            $(this).next().slideDown();
+        }
+    return false;
+    });
+
+
+}//end hamburger
+  
+
 

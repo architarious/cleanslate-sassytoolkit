@@ -44,16 +44,33 @@
       
         <a class="site-logo" href="/">Department or college name<!--<r:site_name />--></a>
 
-        <nav class="nav" role="navigation">
+        <div id="navWrapper">
+        <nav class="nav navbar navbar-default" role="navigation">
+        <div class="navbar-header">            
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-primary">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggle_title">MENU</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+          <a class="nav_site-logo navbar-brand" href="/">Department or college name<!--<r:site_name />--></a>
+        </div><!--end navbar-header-->
+
           <!-- example nav - replace ul/li with <r:site_menu /> -->
-          <ul>
+        <div class="collapse navbar-collapse" id="nav-primary">
+          <ul class="nav navbar-nav">
            <li><a href="#">Academics</a></li>
            <li><a href="#" class="active">Future Students</a></li>
            <li><a href="#">Current Students</a></li>
            <li><a href="#">Alumni</a></li>
            <li><a href="#">Apply</a></li>
           </ul>
-        </nav> <!-- /.nav -->
+        </div><!--/#nav-primary-->
+
+        </nav> <!-- /.navbar -->
+        </div><!--end navWrapper-->
+
 
     </div><!--/.container-->
   </header>
