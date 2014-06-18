@@ -30,15 +30,16 @@ Ruby Gems (preinstalled on mac, need to install for windows: http://rubyinstalle
 
 **SASSY goodness/dependencies included:**
    * compass: http://compass-style.org/
-   * toolkit:  https://github.com/Team-Sass/toolkit
+   * compass-normalize: https://github.com/JohnAlbin/normalize-scss
+   * compass-recipes: https://github.com/MoOx/compass-recipes   
+   * toolkit:  https://github.com/Team-Sass/toolkit   
    * singularity: https://github.com/Team-Sass/Singularity
    * breakpoint: http://breakpoint-sass.com/
+   * modular scale: https://github.com/Team-Sass/modular-scale
    * color-schemer: https://github.com/Team-Sass/color-schemer
    * sassy-buttons: http://jaredhardy.com/sassy-buttons/
-   * compass-normalize: https://github.com/JohnAlbin/normalize-scss
-   * compass-recipes: https://github.com/MoOx/compass-recipes
    * autoprefixer: https://github.com/ai/autoprefixer
-   * Twitter bootstrap for SASS: https://github.com/twbs/bootstrap-sass
+   * bootstrap 3: https://github.com/twbs/bootstrap-sass
 
 ***Misc SASS references/resources:***  
    * SASS Basics: http://sass-lang.com/guide
